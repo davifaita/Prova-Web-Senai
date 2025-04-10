@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppings', sans-serif;
+  }
+   
+  body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    height: 85%; 
+  }
+   
+  header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: rgb(10, 39, 59);
+    align-items: center;
+  }
+
+#logo{
+    width: 10%;
+ }
+ 
+ #logo img{
+    width: 100%;
+    margin-left: 70px;
+ }
+
+ #menu{
+    width: 30vw;
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ 
+ #menu ul{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+ }
+
+ #menu a{
+    text-decoration: none;
+    color: rgb(243, 242, 241);
+    font-size: 1.4 em;
+ }
+
+ #sobrenos {
+   display: flex;
+   width: 100%;
+   flex-direction: row;
+   background-color: rgb(15, 63, 94);
+   flex-wrap: wrap;
+ }
+
+ @media (min-width: 1483px) {
+    #sobrenos {
+      padding: 0 8%;
+      gap: 80px;
+      
+    }
+  
+    #content1 {
+      margin-left: 10%;
+      margin-top:-10%;
+    }
+
+    #content1 h2{
+      font-size: 2.1em;               
+      font-weight: 500em;               
+      line-height: 1.2;                
+      color: #111; 
+      width:20vw;                   
+      margin-top: 6rem;
+
+    }
+
+    #content1 p{
+      font-size: 1.1em;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+    }
+  
+    #sobrenos img{
+      width: 70%;
+      max-width: 520px;
+      height: auto;
+     
+    }
+      
+  }
+
+ #content1 {
+    height: 85%;
+    margin-left: 90px;
+    width: 50%;
+ }
+
+ #content1 h2{
+   width: 40%;
+   font-size: 60px;               
+   font-weight: 300;               
+   line-height: 1.2;                
+   color: #fffefe;                    
+   margin-bottom: 1rem;
+   margin-top: 290px;
+   margin-left: 50p;
+ }
+
+ #content1 p{
+    color: white;
+    font-size: 1.2em;
+    width: 60%;
+ }
+
+ #sobrenos img{
+    width: 50%;
+    margin-right: -90px;
+    height: 85vh;
+    display: flex;
+ }
+
+ #content2 {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 50px;
+ }
+
+ #content2 img{
+    width: 30%;
+ }
+
+ .bloco {
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 80%;
+    height: 20vh;
+    border-radius: 10px;
+    gap: 50px;
+    justify-content: left;
+    border: black;
+ }
+ 
+ .bloco h3{
+    font-size: 1.5em;
+    margin-top: 40px;
+ }
+
+ .bloco p{
+    font-size: 1.5em;
+    width: 70%;
+ }
+
+ #servicos {
+   height: 400px;
+ }
+
+ #servicos h1{
+    margin-left: 70px;
+    margin-top: 50px;
+ }
+
+ .column {
+    flex-direction: column;
+    width: 80%;
+ }
+
+ #depoimentos {
+    display: flex;
+    flex-direction: column;
+    background-color:#f9e7be;
+    height: 60vh;
+ }
+
+ #depoimentos h1{
+    font-size: 3em;
+    margin-left: 60px;
+    margin-top: 60px;
+    color:rgb(15, 63, 94);
+ }
+
+ #depoimentos p{
+    font-size: 2em;
+    width: 70vw;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding: 20px 0;
+    color: rgb(196, 113, 10);
+ }
+
+ #depoimentos span{
+   font-size: 1.8em;
+   width: 70vw;
+   margin-top: 20;
+   margin-left: 60px;
+   color: rgb(196, 113, 10);
+ }
+
+ #contato {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+ }
+
+ #contato h1{
+    font-size: 3em;
+    margin-left: 60px;
+    margin-top: 60px;
+ }
+
+ #content3 img{
+    width: 50%;
+    margin-left: 400px;
+    margin-bottom: 40%;
+    margin-right: 60%;
+ }
+
+ #textsheet ul{
+    flex-direction: column;
+    gap: 20px;
+    font-size: 3em;
+    margin-top: 50px;
+ }
+ 
+ footer{
+    display: flex;
+    background-color: rgb(10, 39, 59);
+    flex-direction: column;
+    align-items: center;
+ }
+
+ #contatofooter {
+  flex-direction: row;
+  width: 40vw;
+ }
+
+ #contatofotter p{
+    color: white;
+   }
+
+#redes p{
+    color: white;
+}
